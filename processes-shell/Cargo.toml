@@ -1,0 +1,12 @@
+[package]
+name = "wish"
+version = "0.1.0"
+edition = "2025"
+authors = ["Sean Ashley"]
+description = "A simple command-line interface tool"
+license = "MIT"
+readme = "README.md"
+
+[dependencies]
+clap = { version = "4.4", features = ["derive"] }  # For parsing command-line arguments
+anyhow = "1.0"                                      # For better error handling
